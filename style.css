@@ -1,0 +1,167 @@
+/* 通用設置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+}
+
+/* 標題 */
+h2 {
+    color: #2575fc;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* 容器 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 搜尋表單 */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input, form select {
+    padding: 8px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #6a11cb;
+}
+
+/* 表格樣式 */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #2575fc;
+    color: white;
+    font-size: 18px;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+/* 加選按鈕 */
+.btn {
+    padding: 8px 16px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2ecc71;
+}
+
+/* 警告訊息 */
+span {
+    font-weight: bold;
+}
+
+span[style="color: red;"] {
+    color: red;
+}
+
+span[style="color: gray;"] {
+    color: gray;
+}
+
+span[style="color: black;"] {
+    color: black;
+}
+
+/* 返回按鈕 */
+.back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #c0392b;
+}
+
+/* 新增課程按鈕樣式 */
+.add {
+    padding: 15px 30px; /* 增加按鈕的內邊距，讓它更大 */
+    background-color: #28a745; /* 綠色背景，突出新增 */
+    color: white; /* 文字顏色設為白色 */
+    font-size: 18px; /* 字體大小 */
+    border-radius: 5px; /* 按鈕圓角 */
+    transition: background-color 0.3s; /* 平滑過渡效果 */
+    display: block;
+    width: 100%; /* 使按鈕寬度填滿父容器 */
+    max-width: 350px; /* 最大寬度，防止過大 */
+    text-align: center;
+    margin: 20px auto; /* 增加按鈕上下間距，並居中 */
+}
+
+.add:hover {
+    background-color: #218838; /* 滑鼠懸停時變色 */
+}
+
+.add:focus {
+    outline: none; /* 去除聚焦時的邊框 */
+}
+
+/* 設置老師名稱顏色 */
+.teacher-name {
+    color: #0066cc; /* 設定顏色為藍色 */
+    font-weight: bold;
+}

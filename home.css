@@ -1,0 +1,92 @@
+/* 通用設置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* 主頁面容器 */
+.student-container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 頁面頭部 */
+.header h1 {
+    color: #2575fc;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* 功能選單 */
+.menu h2 {
+    font-size: 24px;
+    color: #2575fc;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu .btn-menu {
+    padding: 12px 20px;
+    background-color: #2575fc;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.menu .btn-menu:hover {
+    background-color: #11cb7e;
+}
+
+/* 登出按鈕 */
+.btn-logout {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-logout:hover {
+    background-color: #c0392b;
+}

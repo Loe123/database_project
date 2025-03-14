@@ -1,0 +1,123 @@
+/* 通用設置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* 容器 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 頁面頭部 */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: #2575fc;
+    font-size: 36px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* 管理員專用樣式 */
+.adminmenu {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.adminmenu h2 {
+    font-size: 26px;
+    color: #2575fc;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.adminmenu ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.adminmenu li {
+    margin: 20px 0;
+}
+
+/* 一般按鈕樣式 */
+.admin-btn {
+    padding: 15px 30px;
+    background-color: #2575fc;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.admin-btn:hover {
+    background-color: #1c61d7;
+}
+
+/* 刪除按鈕專用樣式 */
+.admin-btn-delete {
+    padding: 15px 30px;
+    background-color: #d39014;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.admin-btn-delete:hover {
+    background-color: #c0392b; /* 更深的紅色 */
+}
+
+/* 登出按鈕 */
+.btn-logout {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+
+.btn-logout:hover {
+    background-color: #c0392b;
+}
