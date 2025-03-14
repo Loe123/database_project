@@ -20,7 +20,7 @@ if (isset($_GET['delete_teacher_id'])) {
     if ($stmt->execute()) {
         $message = "教師資料已成功刪除！";
     } else {
-        $message = "刪除教師資料失敗！";
+        $message = "教師還有授課，刪除教師資料失敗！";
     }
 }
 

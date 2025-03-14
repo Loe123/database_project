@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 INSERT INTO course (course_id, course_name, credits, course_type, dept_id, classroom_id, teacher_id, max_students, is_open)
                 VALUES ('$course_id', '$course_name', '$credits', '$course_type', '$dept_id', '$classroom_id', '$teacher_id', '$max_students', '$is_open')";
 
-            if ($conn->query($sql) === TRUE) {
+            if ($conn->query($sql_insert_course) === TRUE) {
                 // 插入時間段
                 foreach ($timeslot_ids as $timeslot_id) {
                     $sql_insert_timeslot = "INSERT INTO course_timeslot (course_id, timeslot_id) VALUES ('$course_id', '$timeslot_id')";
